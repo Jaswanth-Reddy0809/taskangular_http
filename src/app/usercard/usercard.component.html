@@ -1,0 +1,15 @@
+<div>id:{{userData.id}}</div>
+<div>username:{{userData.name}}</div>
+<div>email:{{userData.email}}</div>
+<div>mobile:{{userData.mobile1}}</div>
+<div>password:{{userData.password1}}</div>
+<div>country:{{userData.country1}}</div>
+<div>state:{{userData.state1}}</div>
+<div>city:{{userData.city1}}</div>
+<div>gender:{{userData.gender1}}</div>
+<div>zipcode:{{userData.zipcode1}}</div>
+<div class="card-footer">
+      <a routerLink='/useredit/{{userData.id}}' class="btn btn-primary" style="margin: 10px;">Edit</a>
+      <a  class="btn btn-primary" style="margin: 10px;" (click)="deleteobj(userData.id!)" >Delete</a>
+      
+    </div>
